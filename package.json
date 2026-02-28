@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js"
+    "dev": "node ./src/server.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/binhminh021106/learn-fullstack-backend-nodejs#readme",
   "dependencies": {
+    "dotenv": "17.3.1",
+    "ejs": "4.0.1",
     "express": "^5.2.1"
   }
 }
