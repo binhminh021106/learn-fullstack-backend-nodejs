@@ -4,14 +4,17 @@ require("dotenv").config();
 
 const app = express();
 const port = process.env.PORT || 8080;
-const hostname = process.env.HOST_NAME || 'localhost';
+const hostname = process.env.HOST_NAME || "localhost";
 
 // config template engine
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
+// config static files
+app.use(express.static(path.join(__dirname, "public")));
+
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello World Bro!");
 });
 
 app.get("/shop", (req, res) => {
