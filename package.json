@@ -1,0 +1,27 @@
+{
+  "name": "learn-fullstack-backend-nodejs",
+  "version": "1.0.0",
+  "description": "Learn Backend node js ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binhminh021106/learn-fullstack-backend-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "Bình Minh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binhminh021106/learn-fullstack-backend-nodejs/issues"
+  },
+  "homepage": "https://github.com/binhminh021106/learn-fullstack-backend-nodejs#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
